@@ -60,7 +60,7 @@ class SeqMatrix(Matrix):
         return matrix
             
                 
-matrix1 = Matrix(read_matrix("matrix.txt"))
+matrix1 = Matrix(read_matrix(input("Please enter the file name: ")))
 matrix2 = SeqMatrix(4, 3, 5, 2)
 
 print("Matrix from file:\n" + str(matrix1))
